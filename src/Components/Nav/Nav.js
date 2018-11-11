@@ -29,9 +29,9 @@ const menuButtonsConf = [
 
 class Nav extends Component {
     configMenu(items){
-        return items.map(function(item){
+        return items.map(function(item, idx){
             return(
-                <li>
+                <li key={idx}>
                     <Link to={item.to}>
                         <button>{item.btnName}</button>
                     </Link>

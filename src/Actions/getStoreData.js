@@ -1,6 +1,7 @@
 export const STORE_REQUEST_INIT = "STORE_REQUEST_INIT";
 export const STORE_REQUEST_SUCCESS = "STORE_REQUEST_SUCCESS";
 export const STORE_REQUEST_FAILURE = "STORE_REQUEST_FAILURE";
+export const FILTERING = "FILTERING";
 
 export const initRequestStore = () => ({
     type: STORE_REQUEST_INIT
@@ -14,6 +15,11 @@ export const successRequestStore = (data) => ({
 export const failureRequestStore = (error) => ({
     type: STORE_REQUEST_FAILURE,
     error
+})
+
+export const filtered = (data) => ({
+    type: FILTERING,
+    data
 })
 
 export function getStoreData(dispatch){
