@@ -1,7 +1,35 @@
 .products-filter {
     margin: 0;
 
-    &-list{
+    &-list {
         height: calc(100vh - 64px);
     }
+}
+
+.products-container {
+    display: flex;
+}
+
+.list-item {
+    align-items: center;
+    display: flex;
+    height: 48px; 
+    margin: 4px 0;
+    
+    &__content {
+      align-items: center;
+      display: flex;
+      height: inherit;
+      padding-left: 16px;
+      flex-grow: 1;
+      transition: background-color .15s;
+      
+      &:hover {
+        background-color: rgba(0, 0, 0, .12);
+      }
+    }
+}  
+
+.main-example {
+   height: 100vh;
 }

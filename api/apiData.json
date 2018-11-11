@@ -7,7 +7,7 @@
             "price": "752.00",
             "brand": "Gusikowski - Ebert",
             "stock": 44903,
-            "photo": "http://lorempixel.com/640/480/technics",
+            "photo": "https://picsum.photos/200/300?technics",
             "categories": [
                 "Services"
             ]
@@ -19,7 +19,7 @@
             "price": "520.00",
             "brand": "McCullough, Parisian and Waters",
             "stock": 55349,
-            "photo": "http://lorempixel.com/640/480/sports",
+            "photo": "https://picsum.photos/200/300?sports",
             "categories": [
                 "Office"
             ]
@@ -31,7 +31,7 @@
             "price": "149.00",
             "brand": "Murphy Inc",
             "stock": 7793,
-            "photo": "http://lorempixel.com/640/480/technics",
+            "photo": "https://picsum.photos/200/300?technics",
             "categories": [
                 "Tech",
                 "Office"
@@ -44,7 +44,7 @@
             "price": "268.00",
             "brand": "Fadel, Lemke and Weber",
             "stock": 98720,
-            "photo": "http://lorempixel.com/640/480/business",
+            "photo": "https://picsum.photos/200/300?business",
             "categories": [
                 "Office"
             ]
@@ -56,7 +56,7 @@
             "price": "526.00",
             "brand": "Carter and Sons",
             "stock": 28915,
-            "photo": "http://lorempixel.com/640/480/food",
+            "photo": "https://picsum.photos/200/300?food",
             "categories": [
                 "Office"
             ]
@@ -68,7 +68,7 @@
             "price": "818.00",
             "brand": "Collins, Johnson and Wolf",
             "stock": 99626,
-            "photo": "http://lorempixel.com/640/480/technics",
+            "photo": "https://picsum.photos/200/300?technics",
             "categories": [
                 "Tech",
                 "Office"
@@ -81,7 +81,7 @@
             "price": "162.00",
             "brand": "Reinger - Daniel",
             "stock": 76502,
-            "photo": "http://lorempixel.com/640/480/food",
+            "photo": "https://picsum.photos/200/300?food",
             "categories": [
                 "Tech",
                 "Services"
@@ -94,7 +94,7 @@
             "price": "56.00",
             "brand": "Von, Baumbach and Schmidt",
             "stock": 39600,
-            "photo": "http://lorempixel.com/640/480/technics",
+            "photo": "https://picsum.photos/200/300?technics",
             "categories": [
                 "Tech",
                 "Office"
@@ -107,7 +107,7 @@
             "price": "388.00",
             "brand": "Feil - Friesen",
             "stock": 55329,
-            "photo": "http://lorempixel.com/640/480/nightlife",
+            "photo": "https://picsum.photos/200/300?nightlife",
             "categories": [
                 "Tech",
                 "Services"
@@ -120,7 +120,7 @@
             "price": "430.00",
             "brand": "Reichel - Jerde",
             "stock": 37040,
-            "photo": "http://lorempixel.com/640/480/cats",
+            "photo": "https://picsum.photos/200/300?cats",
             "categories": [
                 "Services"
             ]
@@ -132,7 +132,7 @@
             "price": "687.00",
             "brand": "Wilkinson - Kunze",
             "stock": 66017,
-            "photo": "http://lorempixel.com/640/480/sports",
+            "photo": "https://picsum.photos/200/300?sports",
             "categories": [
                 "Tech",
                 "Services"
@@ -145,7 +145,7 @@
             "price": "373.00",
             "brand": "Kertzmann - Hayes",
             "stock": 53247,
-            "photo": "http://lorempixel.com/640/480/food",
+            "photo": "https://picsum.photos/200/300?food",
             "categories": [
                 "Services"
             ]
@@ -157,7 +157,7 @@
             "price": "14.00",
             "brand": "Barton - Christiansen",
             "stock": 16282,
-            "photo": "http://lorempixel.com/640/480/transport",
+            "photo": "https://picsum.photos/200/300?transport",
             "categories": [
                 "Office"
             ]
@@ -169,7 +169,7 @@
             "price": "48.00",
             "brand": "Rodriguez, Stokes and Morar",
             "stock": 49835,
-            "photo": "http://lorempixel.com/640/480/food",
+            "photo": "https://picsum.photos/200/300?food",
             "categories": [
                 "Office"
             ]
@@ -181,7 +181,7 @@
             "price": "306.00",
             "brand": "Streich - Howell",
             "stock": 76777,
-            "photo": "http://lorempixel.com/640/480/sports",
+            "photo": "https://picsum.photos/200/300?sports",
             "categories": [
                 "Office"
             ]
@@ -193,7 +193,7 @@
             "price": "398.00",
             "brand": "Collier, Labadie and Turner",
             "stock": 79261,
-            "photo": "http://lorempixel.com/640/480/food",
+            "photo": "https://picsum.photos/200/300?food",
             "categories": [
                 "Tech",
                 "Services"
@@ -206,7 +206,7 @@
             "price": "255.00",
             "brand": "Grady - Emmerich",
             "stock": 76804,
-            "photo": "http://lorempixel.com/640/480/nightlife",
+            "photo": "https://picsum.photos/200/300?nightlife",
             "categories": [
                 "Tech",
                 "Services"
@@ -219,7 +219,7 @@
             "price": "973.00",
             "brand": "Friesen, Terry and Anderson",
             "stock": 86778,
-            "photo": "http://lorempixel.com/640/480/transport",
+            "photo": "https://picsum.photos/200/300?transport",
             "categories": [
                 "Tech",
                 "Office"
@@ -232,7 +232,7 @@
             "price": "885.00",
             "brand": "Green, Von and McCullough",
             "stock": 95531,
-            "photo": "http://lorempixel.com/640/480/technics",
+            "photo": "https://picsum.photos/200/300?technics",
             "categories": [
                 "Services"
             ]
@@ -244,7 +244,7 @@
             "price": "170.00",
             "brand": "DuBuque Inc",
             "stock": 40536,
-            "photo": "http://lorempixel.com/640/480/cats",
+            "photo": "https://picsum.photos/200/300?cats",
             "categories": [
                 "Services"
             ]
@@ -256,7 +256,7 @@
             "price": "57.00",
             "brand": "Lemke - Gaylord",
             "stock": 31149,
-            "photo": "http://lorempixel.com/640/480/people",
+            "photo": "https://picsum.photos/200/300?people",
             "categories": [
                 "Services"
             ]
@@ -268,7 +268,7 @@
             "price": "344.00",
             "brand": "Harvey, Kunde and Cummerata",
             "stock": 36214,
-            "photo": "http://lorempixel.com/640/480/technics",
+            "photo": "https://picsum.photos/200/300?technics",
             "categories": [
                 "Tech",
                 "Services"
@@ -281,7 +281,7 @@
             "price": "709.00",
             "brand": "Lehner, Metz and Mayert",
             "stock": 88511,
-            "photo": "http://lorempixel.com/640/480/nature",
+            "photo": "https://picsum.photos/200/300?nature",
             "categories": [
                 "Office"
             ]
@@ -293,7 +293,7 @@
             "price": "180.00",
             "brand": "Koelpin - Toy",
             "stock": 60247,
-            "photo": "http://lorempixel.com/640/480/people",
+            "photo": "https://picsum.photos/200/300?people",
             "categories": [
                 "Tech",
                 "Services"
@@ -306,7 +306,7 @@
             "price": "83.00",
             "brand": "Eichmann - Haley",
             "stock": 3713,
-            "photo": "http://lorempixel.com/640/480/transport",
+            "photo": "https://picsum.photos/200/300?transport",
             "categories": [
                 "Office"
             ]
@@ -318,7 +318,7 @@
             "price": "350.00",
             "brand": "Cartwright - Wunsch",
             "stock": 42604,
-            "photo": "http://lorempixel.com/640/480/transport",
+            "photo": "https://picsum.photos/200/300?transport",
             "categories": [
                 "Tech",
                 "Services"
@@ -331,7 +331,7 @@
             "price": "389.00",
             "brand": "Yundt LLC",
             "stock": 97102,
-            "photo": "http://lorempixel.com/640/480/fashion",
+            "photo": "https://picsum.photos/200/300?fashion",
             "categories": [
                 "Tech",
                 "Services"
@@ -344,7 +344,7 @@
             "price": "909.00",
             "brand": "Tremblay LLC",
             "stock": 46592,
-            "photo": "http://lorempixel.com/640/480/city",
+            "photo": "https://picsum.photos/200/300?city",
             "categories": [
                 "Services"
             ]
@@ -356,7 +356,7 @@
             "price": "816.00",
             "brand": "Crist - Hirthe",
             "stock": 72349,
-            "photo": "http://lorempixel.com/640/480/nature",
+            "photo": "https://picsum.photos/200/300?nature",
             "categories": [
                 "Tech",
                 "Services"
@@ -369,7 +369,7 @@
             "price": "676.00",
             "brand": "Konopelski and Sons",
             "stock": 11562,
-            "photo": "http://lorempixel.com/640/480/people",
+            "photo": "https://picsum.photos/200/300?people",
             "categories": [
                 "Office"
             ]
@@ -381,7 +381,7 @@
             "price": "456.00",
             "brand": "Feil - Dibbert",
             "stock": 84958,
-            "photo": "http://lorempixel.com/640/480/transport",
+            "photo": "https://picsum.photos/200/300?transport",
             "categories": [
                 "Tech",
                 "Services"
@@ -394,7 +394,7 @@
             "price": "402.00",
             "brand": "Walker, Spencer and Johns",
             "stock": 4361,
-            "photo": "http://lorempixel.com/640/480/cats",
+            "photo": "https://picsum.photos/200/300?cats",
             "categories": [
                 "Services"
             ]
@@ -406,7 +406,7 @@
             "price": "501.00",
             "brand": "Purdy - Leffler",
             "stock": 12576,
-            "photo": "http://lorempixel.com/640/480/transport",
+            "photo": "https://picsum.photos/200/300?transport",
             "categories": [
                 "Services"
             ]
@@ -418,7 +418,7 @@
             "price": "412.00",
             "brand": "Larson, Welch and Feeney",
             "stock": 98851,
-            "photo": "http://lorempixel.com/640/480/fashion",
+            "photo": "https://picsum.photos/200/300?fashion",
             "categories": [
                 "Tech",
                 "Services"
@@ -431,7 +431,7 @@
             "price": "573.00",
             "brand": "Hayes - Christiansen",
             "stock": 29631,
-            "photo": "http://lorempixel.com/640/480/abstract",
+            "photo": "https://picsum.photos/200/300?abstract",
             "categories": [
                 "Tech",
                 "Services"
