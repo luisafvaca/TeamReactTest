@@ -1,8 +1,35 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { getStoreData } from '../../Actions/getStoreData';
+import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom'
+
+import  Nav from '../Nav/Nav';
+import Products from '../Products/Products';
+import Contact from '../Contact/Contact';
+import {NavigationDrawer} from 'react-md';
+
 
 import './App.css';
+
+const navItems = [
+  {
+    label: "Home",
+      to: "./",
+      disable: "true"
+  },{
+      label: "Products",
+      to: "./products",
+      disable: "false"
+  },{
+      label: "Clients",
+      to: "./",
+      disable: "true"
+  },{
+    label: "Contact",
+      to: "./contact",
+      disable: "false"
+  }
+]
 
 
 
@@ -15,7 +42,14 @@ class App extends Component {
 
   render() {
     return (
-      <div>Hola Mundo</div>
+      <Router>
+        <div>
+          <Nav></Nav>
+          <Redirect to="/products" />
+          <Route path="/products" component={Products}></Route>
+          <Route path="/contact" component={Contact}></Route>        
+        </div>
+      </Router>
     );
   }
 }
