@@ -14,8 +14,10 @@ const ItemsCards = (props) => {
                     <img className="items-cards-image"alt="item" src={item.photo}></img>
                     <div>
                         <CardText>{item.description}</CardText>
-                        <div>{`Stock:${item.stock}`}</div>
-                        <div>{`Price:${item.price}`}</div>
+                        <div className="items-cards-stock">
+                            <div>{`Stock: $${item.stock}`}</div>
+                            <div>{`Price: $${item.price}`}</div>
+                        </div>
                     </div>
                 </div>
             </Card>
