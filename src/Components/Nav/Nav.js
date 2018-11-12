@@ -4,12 +4,11 @@ import {
   } from 'react-router-dom';
 
 import './Nav.css'
-import { Toolbar } from 'react-md';
 
 const menuButtonsConf = [
     {
         btnName: "Home",
-        to: "./",
+        to: "./home",
         disable: "true"
     },{
         btnName: "Products",
@@ -17,7 +16,7 @@ const menuButtonsConf = [
         disable: "false"
     },{
         btnName: "Clients",
-        to: "./",
+        to: "./clients",
         disable: "true"
     },{
         btnName: "Contact",
@@ -33,7 +32,7 @@ class Nav extends Component {
             return(
                 <li key={idx}>
                     <Link to={item.to}>
-                        <button>{item.btnName}</button>
+                        <button className="nav-button">{item.btnName}</button>
                     </Link>
                 </li>
             )
@@ -42,11 +41,11 @@ class Nav extends Component {
     render(){
         const tabs = this.configMenu(menuButtonsConf);
         return(
-            <Toolbar colored className="nav">
+            <nav colored className="nav">
                 <ul className="nav-item">
                     {tabs}
                 </ul>
-            </Toolbar>
+            </nav>
         )
     }
 }
