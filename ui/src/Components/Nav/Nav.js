@@ -1,30 +1,7 @@
 import React, { Component } from 'react';
-import {
-    Link
-  } from 'react-router-dom';
-
+import { Link } from 'react-router-dom';
+import { menuButtonsConf } from '../../Utils/configUtils';
 import './Nav.css'
-
-const menuButtonsConf = [
-    {
-        btnName: "Home",
-        to: "./home",
-        disable: "true"
-    },{
-        btnName: "Products",
-        to: "./products",
-        disable: "false"
-    },{
-        btnName: "Clients",
-        to: "./clients",
-        disable: "true"
-    },{
-        btnName: "Contact",
-        to: "./contact",
-        disable: "false"
-    }
-]
-
 
 class Nav extends Component {
     configMenu(items){

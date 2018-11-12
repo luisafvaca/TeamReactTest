@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
+import Form from '../Form/Form';
+
+import "./Contact.css";
 
 class Contact extends Component {
     render(){
         return(
-            <div>Hola mundo</div>
+            <section className="contact">
+                <Form />
+            </section>
         )
     }
 }

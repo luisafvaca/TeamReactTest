@@ -9,9 +9,6 @@ import Contact from '../Contact/Contact';
 import NoContent from '../NoContent/NoContent';
 
 import './App.css';
-import test from 'react-md/dist/react-md';
-
-console.log(test)
 
 const initialType = "All";
 

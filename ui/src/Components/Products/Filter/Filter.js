@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { filtered } from '../../../Actions/getStoreData';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faListUl, faLaptop, faWrench, faFolder } from '@fortawesome/free-solid-svg-icons'
+import { filterConf } from '../../../Utils/configUtils';
 import { 
     List,
     Paper,  
@@ -15,27 +15,6 @@ import {
 } from 'react-md';
 
 import './Filter.css';
-
-const filterConf = [
-    {
-        label: "All",
-        hasDivider: true,
-        icon: faListUl
-    },{
-        label: "Tech",
-        hasDivider: false,
-        icon: faLaptop
-    },{
-        label: "Services",
-        hasDivider: false,
-        icon: faWrench
-    },{
-        label: "Office",
-        hasDivider: false,
-        icon: faFolder
-    },
-
-];
 
 class Filter extends Component {
     constructor(props){

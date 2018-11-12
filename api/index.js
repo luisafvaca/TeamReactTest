@@ -11,7 +11,7 @@ let store = [
        "price": "752.00",
        "brand": "Gusikowski - Ebert",
        "stock": 44903,
-       "photo": "http://lorempixel.com/640/480/technics",
+       "photo": "https://loremflickr.com/640/480?technics",
        "categories": [
           "Services"
        ]
@@ -23,7 +23,7 @@ let store = [
        "price": "520.00",
        "brand": "McCullough, Parisian and Waters",
        "stock": 55349,
-       "photo": "http://lorempixel.com/640/480/sports",
+       "photo": "https://loremflickr.com/640/480?sports",
        "categories": [
           "Office"
        ]
@@ -35,7 +35,7 @@ let store = [
        "price": "149.00",
        "brand": "Murphy Inc",
        "stock": 7793,
-       "photo": "http://lorempixel.com/640/480/technics",
+       "photo": "https://loremflickr.com/640/480?technics",
        "categories": [
           "Tech",
           "Office"
@@ -48,7 +48,7 @@ let store = [
        "price": "268.00",
        "brand": "Fadel, Lemke and Weber",
        "stock": 98720,
-       "photo": "http://lorempixel.com/640/480/business",
+       "photo": "https://loremflickr.com/640/480?business",
        "categories": [
           "Office"
        ]
@@ -60,7 +60,7 @@ let store = [
        "price": "526.00",
        "brand": "Carter and Sons",
        "stock": 28915,
-       "photo": "http://lorempixel.com/640/480/food",
+       "photo": "https://loremflickr.com/640/480?food",
        "categories": [
           "Office"
        ]
@@ -72,7 +72,7 @@ let store = [
        "price": "818.00",
        "brand": "Collins, Johnson and Wolf",
        "stock": 99626,
-       "photo": "http://lorempixel.com/640/480/technics",
+       "photo": "https://loremflickr.com/640/480?technics",
        "categories": [
           "Tech",
           "Office"
@@ -85,7 +85,7 @@ let store = [
        "price": "162.00",
        "brand": "Reinger - Daniel",
        "stock": 76502,
-       "photo": "http://lorempixel.com/640/480/food",
+       "photo": "https://loremflickr.com/640/480?food",
        "categories": [
           "Tech",
           "Services"
@@ -98,7 +98,7 @@ let store = [
        "price": "56.00",
        "brand": "Von, Baumbach and Schmidt",
        "stock": 39600,
-       "photo": "http://lorempixel.com/640/480/technics",
+       "photo": "https://loremflickr.com/640/480?technics",
        "categories": [
           "Tech",
           "Office"
@@ -111,7 +111,7 @@ let store = [
        "price": "388.00",
        "brand": "Feil - Friesen",
        "stock": 55329,
-       "photo": "http://lorempixel.com/640/480/nightlife",
+       "photo": "https://loremflickr.com/640/480?nightlife",
        "categories": [
           "Tech",
           "Services"
@@ -124,7 +124,7 @@ let store = [
        "price": "430.00",
        "brand": "Reichel - Jerde",
        "stock": 37040,
-       "photo": "http://lorempixel.com/640/480/cats",
+       "photo": "https://loremflickr.com/640/480?cats",
        "categories": [
           "Services"
        ]
@@ -136,7 +136,7 @@ let store = [
        "price": "687.00",
        "brand": "Wilkinson - Kunze",
        "stock": 66017,
-       "photo": "http://lorempixel.com/640/480/sports",
+       "photo": "https://loremflickr.com/640/480?sports",
        "categories": [
           "Tech",
           "Services"
@@ -149,7 +149,7 @@ let store = [
        "price": "373.00",
        "brand": "Kertzmann - Hayes",
        "stock": 53247,
-       "photo": "http://lorempixel.com/640/480/food",
+       "photo": "https://loremflickr.com/640/480?food",
        "categories": [
           "Services"
        ]
@@ -161,7 +161,7 @@ let store = [
        "price": "14.00",
        "brand": "Barton - Christiansen",
        "stock": 16282,
-       "photo": "http://lorempixel.com/640/480/transport",
+       "photo": "https://loremflickr.com/640/480?transport",
        "categories": [
           "Office"
        ]
@@ -173,7 +173,7 @@ let store = [
        "price": "48.00",
        "brand": "Rodriguez, Stokes and Morar",
        "stock": 49835,
-       "photo": "http://lorempixel.com/640/480/food",
+       "photo": "https://loremflickr.com/640/480?food",
        "categories": [
           "Office"
        ]
@@ -185,7 +185,7 @@ let store = [
        "price": "306.00",
        "brand": "Streich - Howell",
        "stock": 76777,
-       "photo": "http://lorempixel.com/640/480/sports",
+       "photo": "https://loremflickr.com/640/480?sports",
        "categories": [
           "Office"
        ]
@@ -197,7 +197,7 @@ let store = [
        "price": "398.00",
        "brand": "Collier, Labadie and Turner",
        "stock": 79261,
-       "photo": "http://lorempixel.com/640/480/food",
+       "photo": "https://loremflickr.com/640/480?food",
        "categories": [
           "Tech",
           "Services"
@@ -210,7 +210,7 @@ let store = [
        "price": "255.00",
        "brand": "Grady - Emmerich",
        "stock": 76804,
-       "photo": "http://lorempixel.com/640/480/nightlife",
+       "photo": "https://loremflickr.com/640/480?nightlife",
        "categories": [
           "Tech",
           "Services"
@@ -223,7 +223,7 @@ let store = [
        "price": "973.00",
        "brand": "Friesen, Terry and Anderson",
        "stock": 86778,
-       "photo": "http://lorempixel.com/640/480/transport",
+       "photo": "https://loremflickr.com/640/480?transport",
        "categories": [
           "Tech",
           "Office"
@@ -236,7 +236,7 @@ let store = [
        "price": "885.00",
        "brand": "Green, Von and McCullough",
        "stock": 95531,
-       "photo": "http://lorempixel.com/640/480/technics",
+       "photo": "https://loremflickr.com/640/480?technics",
        "categories": [
           "Services"
        ]
@@ -248,7 +248,7 @@ let store = [
        "price": "170.00",
        "brand": "DuBuque Inc",
        "stock": 40536,
-       "photo": "http://lorempixel.com/640/480/cats",
+       "photo": "https://loremflickr.com/640/480?cats",
        "categories": [
           "Services"
        ]
@@ -260,7 +260,7 @@ let store = [
        "price": "57.00",
        "brand": "Lemke - Gaylord",
        "stock": 31149,
-       "photo": "http://lorempixel.com/640/480/people",
+       "photo": "https://loremflickr.com/640/480?people",
        "categories": [
           "Services"
        ]
@@ -272,7 +272,7 @@ let store = [
        "price": "344.00",
        "brand": "Harvey, Kunde and Cummerata",
        "stock": 36214,
-       "photo": "http://lorempixel.com/640/480/technics",
+       "photo": "https://loremflickr.com/640/480?technics",
        "categories": [
           "Tech",
           "Services"
@@ -285,7 +285,7 @@ let store = [
        "price": "709.00",
        "brand": "Lehner, Metz and Mayert",
        "stock": 88511,
-       "photo": "http://lorempixel.com/640/480/nature",
+       "photo": "https://loremflickr.com/640/480?nature",
        "categories": [
           "Office"
        ]
@@ -297,7 +297,7 @@ let store = [
        "price": "180.00",
        "brand": "Koelpin - Toy",
        "stock": 60247,
-       "photo": "http://lorempixel.com/640/480/people",
+       "photo": "https://loremflickr.com/640/480?people",
        "categories": [
           "Tech",
           "Services"
@@ -310,7 +310,7 @@ let store = [
        "price": "83.00",
        "brand": "Eichmann - Haley",
        "stock": 3713,
-       "photo": "http://lorempixel.com/640/480/transport",
+       "photo": "https://loremflickr.com/640/480?transport",
        "categories": [
           "Office"
        ]
@@ -322,7 +322,7 @@ let store = [
        "price": "350.00",
        "brand": "Cartwright - Wunsch",
        "stock": 42604,
-       "photo": "http://lorempixel.com/640/480/transport",
+       "photo": "https://loremflickr.com/640/480?transport",
        "categories": [
           "Tech",
           "Services"
@@ -335,7 +335,7 @@ let store = [
        "price": "389.00",
        "brand": "Yundt LLC",
        "stock": 97102,
-       "photo": "http://lorempixel.com/640/480/fashion",
+       "photo": "https://loremflickr.com/640/480?fashion",
        "categories": [
           "Tech",
           "Services"
@@ -348,7 +348,7 @@ let store = [
        "price": "909.00",
        "brand": "Tremblay LLC",
        "stock": 46592,
-       "photo": "http://lorempixel.com/640/480/city",
+       "photo": "https://loremflickr.com/640/480?city",
        "categories": [
           "Services"
        ]
@@ -360,7 +360,7 @@ let store = [
        "price": "816.00",
        "brand": "Crist - Hirthe",
        "stock": 72349,
-       "photo": "http://lorempixel.com/640/480/nature",
+       "photo": "https://loremflickr.com/640/480?nature",
        "categories": [
           "Tech",
           "Services"
@@ -373,7 +373,7 @@ let store = [
        "price": "676.00",
        "brand": "Konopelski and Sons",
        "stock": 11562,
-       "photo": "http://lorempixel.com/640/480/people",
+       "photo": "https://loremflickr.com/640/480?people",
        "categories": [
           "Office"
        ]
@@ -385,7 +385,7 @@ let store = [
        "price": "456.00",
        "brand": "Feil - Dibbert",
        "stock": 84958,
-       "photo": "http://lorempixel.com/640/480/transport",
+       "photo": "https://loremflickr.com/640/480?transport",
        "categories": [
           "Tech",
           "Services"
@@ -398,7 +398,7 @@ let store = [
        "price": "402.00",
        "brand": "Walker, Spencer and Johns",
        "stock": 4361,
-       "photo": "http://lorempixel.com/640/480/cats",
+       "photo": "https://loremflickr.com/640/480?cats",
        "categories": [
           "Services"
        ]
@@ -410,7 +410,7 @@ let store = [
        "price": "501.00",
        "brand": "Purdy - Leffler",
        "stock": 12576,
-       "photo": "http://lorempixel.com/640/480/transport",
+       "photo": "https://loremflickr.com/640/480?transport",
        "categories": [
           "Services"
        ]
@@ -422,7 +422,7 @@ let store = [
        "price": "412.00",
        "brand": "Larson, Welch and Feeney",
        "stock": 98851,
-       "photo": "http://lorempixel.com/640/480/fashion",
+       "photo": "https://loremflickr.com/640/480?fashion",
        "categories": [
           "Tech",
           "Services"
@@ -435,7 +435,7 @@ let store = [
        "price": "573.00",
        "brand": "Hayes - Christiansen",
        "stock": 29631,
-       "photo": "http://lorempixel.com/640/480/abstract",
+       "photo": "https://loremflickr.com/640/480?abstract",
        "categories": [
           "Tech",
           "Services"
