@@ -10,5 +10,5 @@ $md-secondary-color: $md-teal-400;
 @include react-md-theme-everything(
   $md-grey-500, $md-indigo-a-200, 
   $md-light-theme, 
-  'custom-theme'
+  'store-theme'
 );

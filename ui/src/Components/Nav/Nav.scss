@@ -3,9 +3,24 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    background-color:#c8c8c8;
     
     &-item{
         display: flex;
         justify-content: center;
     }
+
+    &-button{
+        background-color:#c8c8c8;
+        margin: 0;
+        padding: 0;
+        border: none;
+        padding: 25px;
+        color: #000;
+        &:hover {
+            background-color:#8c8c8c;
+            cursor: pointer;
+        }
+    }
+
 }

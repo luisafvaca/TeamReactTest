@@ -1,25 +1,61 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-import { Card, Grid, Subheader, CardTitle, CardText, Media} from 'react-md';
-import "./ItemsView.css";
+import { Grid } from 'react-md';
+
+import ItemsCards from '../ItemCard/ItemCard';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faThLarge, faTh } from '@fortawesome/free-solid-svg-icons'
+
+import './ItemsView.css';
 
 class ItemsView extends Component {
-    render(){
-        return(
-            <Grid>
-                <Card>
-                    <CardTitle title={"This is the title"}></CardTitle >
-                    <Subheader primaryText={"test"}></Subheader>
-                    <div className="Item-view-img-cont">   
-                        <img alt="item" src="http://mouse.latercera.com/wp-content/uploads/2018/03/adventure-time.jpg"></img>
-                        <CardText>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </CardText>
+    constructor(props){
+        super(props);
+        this.state = {
+            isList: true
+        }
+        this.onType = this.onType.bind(this);
+    }
 
+    onType(e){
+        console.log(e.target)
+        const type = e.target.getAttribute("name") !== "list" ? false : true;
+        this.setState({isList: type})
+    }
+
+    render(){
+        const items = this.props.items;
+        return(
+            <div className="items-view">
+                <div className="item-view-icons">
+                    <div className="items-view-buttons">
+                        <button className="items-view-button" name="list" onClick={this.onType}> </button>
+                        <FontAwesomeIcon className="items-view-icon" icon={faThLarge} />
                     </div>
-                </Card>
-            </Grid>
+                    <div className="items-view-buttons">
+                        <button className="items-view-button" name="block" onClick={this.onType}> </button>
+                        <FontAwesomeIcon className="items-view-icon" icon={faTh} />
+                    </div>
+                </div>
+                <div className="items-view-stats">
+                    Showing: <span>{this.props.stats.show}</span> products - Hidden <span>{this.props.stats.hide}</span>
+                </div>
+                <Grid>
+                    <ItemsCards items={items} isList={this.state.isList}/>
+                </Grid>
+            </div>
+
         )
     }
 }
 
-export default connect(null, null)(ItemsView)
+const mapStateToProps = (state) => {  
+    return {
+        items: state.store.filteredItems,
+        stats: state.store.stats
+    }
+};
+
+export default connect(mapStateToProps, null)(ItemsView)

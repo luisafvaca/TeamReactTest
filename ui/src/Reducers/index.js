@@ -1,8 +1,8 @@
 import { combineReducers } from "redux";
-import StoreData from './getStoreData';
+import store from './getStoreData';
 
 const reducers = combineReducers({
-    StoreData
+    store
 })
 
 export default reducers;

@@ -8,6 +8,10 @@ const initialState = {
     storeData: [],
     storeDataError: {},
     filteredItems: [],
+    stats: {
+        show: "",
+        hide: ""
+    }
 }
 
 function storeDataManage(state=initialState, action){
@@ -18,13 +22,15 @@ function storeDataManage(state=initialState, action){
             return {...state, storeDataError:action.error};
         case FILTERING:
             const items = state.storeData.filter(function(item){
-                if(action.data === "All"){
-                   return state.storeData
+                if(STORE_REQUEST_SUCCESS && action.data === "All"){
+                   return item
                 }else if(item.categories.includes(action.data)){
                    return item
                }
             });
-           return {...state, filteredItems:items}
+            const show = items.length;
+            const hide = state.storeData.length - items.length;
+           return {...state, filteredItems:items, stats: {show: show, hide: hide}}
             
         default: 
             return state; 

@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { filtered } from '../../../Actions/getStoreData';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faListUl, faLaptop, faWrench, faFolder } from '@fortawesome/free-solid-svg-icons'
 import { 
     List,
     Paper,  
     AccessibleFakeInkedButton, 
     Card, 
-    Subheader, 
-    FontIcon,
+    Subheader,
     Avatar,
-    IconSeparator
+    IconSeparator,
+    Divider
 } from 'react-md';
 
 import './Filter.css';
@@ -19,12 +20,19 @@ const filterConf = [
     {
         label: "All",
         hasDivider: true,
+        icon: faListUl
     },{
         label: "Tech",
         hasDivider: false,
+        icon: faLaptop
     },{
         label: "Services",
         hasDivider: false,
+        icon: faWrench
+    },{
+        label: "Office",
+        hasDivider: false,
+        icon: faFolder
     },
 
 ];
@@ -42,7 +50,6 @@ class Filter extends Component {
     }
 
     buildFilters(onClickEvent){
-        console.log("entandooooo", this)
         return filterConf.map(function(item, idx){
             return(
                 <List key={idx}>
@@ -56,10 +63,11 @@ class Filter extends Component {
                             )}
                             iconBefore
                         >
-                            <Avatar icon={<FontIcon>folder</FontIcon>} />
+                            <Avatar icon={<FontAwesomeIcon icon={item.icon} className="bookmark"></FontAwesomeIcon>}/>
                         </IconSeparator>
                         </AccessibleFakeInkedButton>
                     </li>
+                    {item.hasDivider ? <Divider></Divider>: null}
                 </List>
             )
         })

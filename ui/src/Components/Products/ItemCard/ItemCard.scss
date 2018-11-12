@@ -1,0 +1,13 @@
+.items-cards {
+    margin: 10px 0;
+    &--list{
+        width: 100%;
+    }
+    &--block{
+        width: 50%;
+    }
+    &-image {
+        width: 200px;
+        height: 150px;
+    }
+}
