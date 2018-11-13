@@ -1,5 +1,10 @@
 ## *Store* 🏪
 
+
+- ![Alt text](./ui/project.JPG?raw=true "Title")
+- ![Alt text](./ui/blocks.JPG?raw=true "Title")
+- ![Alt text](./ui/form.JPG?raw=true "Title")
+
 #### Clone Repo:
     `$ git clone https://github.com/luisafvaca/TeamReactTest.git` 
 
