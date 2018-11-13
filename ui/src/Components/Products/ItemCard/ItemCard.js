@@ -1,17 +1,25 @@
 import React from 'react';
 import { Card, Subheader, CardTitle, CardText} from 'react-md';
+
 import './ItemCard.css'
 
+/**
+ * Event Click to buil an item card 
+ * @param {Object} function buil cards
+ *
+*/
 const ItemsCards = (props) => {
     const items = props.items;
     const isList = props.isList ? "items-cards--list" : "items-cards--block";
-    return items.map(function(item){
+    return items.map(function(item, idx){
         return(
-            <Card className={`items-cards ${isList}`}>
+            <Card key={idx} className={`items-cards ${isList}`}>
                 <CardTitle title={item.name}></CardTitle >
                 <Subheader primaryText={item.brand}></Subheader>
-                <div className="Item-view-img-cont">   
-                    <img className="items-cards-image"alt="item" src={item.photo}></img>
+                <div className="items-cards-cont">
+                    <div>
+                        <img className="items-cards-image"alt="item" src={item.photo}></img>   
+                    </div>   
                     <div>
                         <CardText>{item.description}</CardText>
                         <div className="items-cards-stock">

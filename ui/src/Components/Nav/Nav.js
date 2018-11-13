@@ -1,9 +1,18 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { menuButtonsConf } from '../../Utils/configUtils';
+
 import './Nav.css'
 
 class Nav extends Component {
+    /**
+     * This method help to build a menu just with 
+     * simple array config that contents the following keys:
+     * to: link to
+     * buttonName: item name
+     * @param {array} items config
+     *
+    */
     configMenu(items){
         return items.map(function(item, idx){
             return(
@@ -18,7 +27,7 @@ class Nav extends Component {
     render(){
         const tabs = this.configMenu(menuButtonsConf);
         return(
-            <nav colored className="nav">
+            <nav className="nav">
                 <ul className="nav-item">
                     {tabs}
                 </ul>

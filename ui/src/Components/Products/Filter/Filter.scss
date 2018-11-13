@@ -1,0 +1,19 @@
+.filter {
+    align-items: center;
+    display: flex;
+    height: 48px; 
+    margin: 4px 0;
+    
+    &-icon {
+      align-items: center;
+      display: flex;
+      height: inherit;
+      padding-left: 16px;
+      flex-grow: 1;
+      transition: background-color .15s;
+      
+      &:hover {
+        background-color: rgba(0, 0, 0, .12);
+      }
+    }
+} 

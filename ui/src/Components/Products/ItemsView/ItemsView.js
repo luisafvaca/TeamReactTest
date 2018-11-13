@@ -20,7 +20,6 @@ class ItemsView extends Component {
     }
 
     onType(e){
-        console.log(e.target)
         const type = e.target.getAttribute("name") !== "list" ? false : true;
         this.setState({isList: type})
     }
@@ -40,7 +39,7 @@ class ItemsView extends Component {
                     </div>
                 </div>
                 <div className="items-view-stats">
-                    Showing: <span>{this.props.stats.show}</span> products - Hidden <span>{this.props.stats.hide}</span>
+                    Showing: <span className="items-view-stats-text--bold">{this.props.stats.show}</span> products - Hidden <span className="items-view-stats-text--bold">{this.props.stats.hide}</span>
                 </div>
                 <Grid>
                     <ItemsCards items={items} isList={this.state.isList}/>
