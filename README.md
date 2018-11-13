@@ -21,8 +21,9 @@ After install them inicialice the server with the following comand.
     `$ cd ui`
     `$npm install`
 
-After install them inicialice the project with the following comand.
+After install them inicialice the project with the following comands.
 
+     `$npm build`
      `$npm start`
 
 ## Used Dependencies
