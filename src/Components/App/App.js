@@ -28,15 +28,13 @@ class App extends Component {
         <div>
           <Nav></Nav>
           <Switch>
-            <Route path="/" exact>
-              <Redirect to="/products" component={Products} />
+            <Route path="/" exact component={NoContent}>
+              <Redirect to="/" exact component={NoContent} />
             </Route>
             <Route path="/products" component={Products}></Route>
+            <Route path="/contact" component={Contact}></Route>
+            <Route path="/clients" component={NoContent}></Route> 
           </Switch>
-          <Route path="/products" component={Products}></Route>
-          <Route path="/contact" component={Contact}></Route>
-          <Route path="/clients" component={NoContent}></Route>  
-          <Route path="/" component={NoContent}></Route> 
         </div>
       </Router>
     );
