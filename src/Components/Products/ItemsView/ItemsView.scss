@@ -26,5 +26,10 @@
 
     &-stats {
         margin-left: 30px;
+        &-text {
+            &--bold{
+                font-weight: 800;
+            }
+        }
     }
 }

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { getStoreData, filtered } from '../../Actions/getStoreData';
-import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
 
-import  Nav from '../Nav/Nav';
+import Nav from '../Nav/Nav';
 import Products from '../Products/Products';
 import Contact from '../Contact/Contact';
 import NoContent from '../NoContent/NoContent';
@@ -31,8 +31,8 @@ class App extends Component {
           <Redirect to="/products" />
           <Route path="/products" component={Products}></Route>
           <Route path="/contact" component={Contact}></Route>
-          <Route path="/home" component={NoContent}></Route> 
-          <Route path="/clients" component={NoContent}></Route>      
+          <Route path="/clients" component={NoContent}></Route>  
+          <Route path="/" component={NoContent}></Route> 
         </div>
       </Router>
     );

@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { filtered } from '../../../Actions/getStoreData';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { BrowserRouter  } from 'react-router-dom'
+
 import { filterConf } from '../../../Utils/configUtils';
 import { 
     List,
@@ -26,14 +28,20 @@ class Filter extends Component {
     onClickEvent(e){
         const type = e.currentTarget.getAttribute('name');
         this.props.filter(type);
+        
+        console.log(BrowserRouter, '-----------')
     }
-
+    /**
+     * Event Click to filter cards
+     * @param {func} onClickEvent handler filter
+     *
+    */
     buildFilters(onClickEvent){
         return filterConf.map(function(item, idx){
             return(
                 <List key={idx}>
                     <li>
-                        <AccessibleFakeInkedButton className="list-item__content" name={item.label} onClick={(e)=>onClickEvent(e)}>
+                        <AccessibleFakeInkedButton className="filter-icon" name={item.label} onClick={(e)=>onClickEvent(e)}>
                         <IconSeparator
                             label={(
                             <div>
@@ -42,7 +50,7 @@ class Filter extends Component {
                             )}
                             iconBefore
                         >
-                            <Avatar icon={<FontAwesomeIcon icon={item.icon} className="bookmark"></FontAwesomeIcon>}/>
+                            <Avatar icon={<FontAwesomeIcon icon={item.icon}></FontAwesomeIcon>}/>
                         </IconSeparator>
                         </AccessibleFakeInkedButton>
                     </li>
@@ -54,9 +62,9 @@ class Filter extends Component {
     render(){
         const click = this.onClickEvent;
         const items = this.buildFilters(click);
-        console.log(items, 'itemsss')
+
         return(
-            <Card className="md-cell md-paper md-paper--1 products-filter">
+            <Card className="md-cell md-paper products-filter">
                 <Subheader primaryText={"Categories"}/>
                 <Paper className="main-example">
                     <List>

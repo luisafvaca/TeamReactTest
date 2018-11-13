@@ -1,15 +1,20 @@
 .items-cards {
-    margin: 10px 0;
+    margin: 10px 10px;
+
+    &-cont {
+        display: flex;
+    }
+
     &--list{
         width: 100%;
     }
     &--block{
-        width: 50%;
+        max-width: 47%;
     }
     &-image {
         width: 100px;
         height: 90px;
-        margin: 30px 12px;
+        margin: 0 12px 0 30px;
     }
     &-stock {
         margin: 16px;
