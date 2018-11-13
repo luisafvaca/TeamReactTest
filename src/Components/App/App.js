@@ -8,12 +8,10 @@ import Products from '../Products/Products';
 import Contact from '../Contact/Contact';
 import NoContent from '../NoContent/NoContent';
 
-import './App.css';
-
 const initialType = "All";
 
 class App extends Component {
-  componentWillMount(){
+  componentDidMount(){
     this.props.getStore()
   }
 
