@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { getStoreData, filtered } from '../../Actions/getStoreData';
-import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
 
 import Nav from '../Nav/Nav';
 import Products from '../Products/Products';
@@ -11,6 +11,7 @@ import NoContent from '../NoContent/NoContent';
 const initialType = "All";
 
 class App extends Component {
+
   componentDidMount(){
     this.props.getStore()
   }
@@ -26,7 +27,12 @@ class App extends Component {
       <Router>
         <div>
           <Nav></Nav>
-          <Redirect to="/products" />
+          <Switch>
+            <Route path="/" exact>
+              <Redirect to="/products" component={Products} />
+            </Route>
+            <Route path="/products" component={Products}></Route>
+          </Switch>
           <Route path="/products" component={Products}></Route>
           <Route path="/contact" component={Contact}></Route>
           <Route path="/clients" component={NoContent}></Route>  
