@@ -42,4 +42,5 @@ After install them inicialice the project with the following comands.
 | 7           | redux-devtools-extension | 2.13.5 |
 | 8           | redux-thunk  | 2.3.0    |
 
+ *Note: Currently I have an issue with react router, so ... for the first time you need to reload the page, I'm trying to solve it ASAP*
 
