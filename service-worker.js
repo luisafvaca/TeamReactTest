@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/luisafvaca/TeamReactTest/tree/master/ui/src/precache-manifest.27754a7a2f8044e8f67dd4b658791e79.js"
+  "/luisafvaca/TeamReactTest/precache-manifest.afe43de224c1455670d8b3399993b0e7.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/luisafvaca/TeamReactTest/tree/master/ui/src/index.html", {
+workbox.routing.registerNavigationRoute("/luisafvaca/TeamReactTest/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

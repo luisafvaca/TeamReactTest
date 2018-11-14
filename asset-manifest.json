@@ -1,13 +1,13 @@
 {
-  "main.css": "/luisafvaca/TeamReactTest/tree/master/ui/src/static/css/main.b58690ad.chunk.css",
-  "main.js": "/luisafvaca/TeamReactTest/tree/master/ui/src/static/js/main.21cff49e.chunk.js",
-  "main.js.map": "/luisafvaca/TeamReactTest/tree/master/ui/src/static/js/main.21cff49e.chunk.js.map",
-  "static/js/1.a101bd05.chunk.js": "/luisafvaca/TeamReactTest/tree/master/ui/src/static/js/1.a101bd05.chunk.js",
-  "static/js/1.a101bd05.chunk.js.map": "/luisafvaca/TeamReactTest/tree/master/ui/src/static/js/1.a101bd05.chunk.js.map",
-  "runtime~main.js": "/luisafvaca/TeamReactTest/tree/master/ui/src/static/js/runtime~main.a587bc13.js",
-  "runtime~main.js.map": "/luisafvaca/TeamReactTest/tree/master/ui/src/static/js/runtime~main.a587bc13.js.map",
-  "static/css/main.b58690ad.chunk.css.map": "/luisafvaca/TeamReactTest/tree/master/ui/src/static/css/main.b58690ad.chunk.css.map",
-  "index.html": "/luisafvaca/TeamReactTest/tree/master/ui/src/index.html",
-  "precache-manifest.27754a7a2f8044e8f67dd4b658791e79.js": "/luisafvaca/TeamReactTest/tree/master/ui/src/precache-manifest.27754a7a2f8044e8f67dd4b658791e79.js",
-  "service-worker.js": "/luisafvaca/TeamReactTest/tree/master/ui/src/service-worker.js"
+  "main.css": "/luisafvaca/TeamReactTest/static/css/main.b58690ad.chunk.css",
+  "main.js": "/luisafvaca/TeamReactTest/static/js/main.b49437e0.chunk.js",
+  "main.js.map": "/luisafvaca/TeamReactTest/static/js/main.b49437e0.chunk.js.map",
+  "static/js/1.a101bd05.chunk.js": "/luisafvaca/TeamReactTest/static/js/1.a101bd05.chunk.js",
+  "static/js/1.a101bd05.chunk.js.map": "/luisafvaca/TeamReactTest/static/js/1.a101bd05.chunk.js.map",
+  "runtime~main.js": "/luisafvaca/TeamReactTest/static/js/runtime~main.1125b748.js",
+  "runtime~main.js.map": "/luisafvaca/TeamReactTest/static/js/runtime~main.1125b748.js.map",
+  "static/css/main.b58690ad.chunk.css.map": "/luisafvaca/TeamReactTest/static/css/main.b58690ad.chunk.css.map",
+  "index.html": "/luisafvaca/TeamReactTest/index.html",
+  "precache-manifest.afe43de224c1455670d8b3399993b0e7.js": "/luisafvaca/TeamReactTest/precache-manifest.afe43de224c1455670d8b3399993b0e7.js",
+  "service-worker.js": "/luisafvaca/TeamReactTest/service-worker.js"
 }
